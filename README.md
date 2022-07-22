@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-VoeARBmlBS)
 - Live Site URL: [Product-Card](https://product-card-component-main.netlify.app/)
 
 ## My process
