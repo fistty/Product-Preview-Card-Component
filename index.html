@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="image-container">
+        <picture>
+          <source
+            media="(max-width: 575px)"
+            srcset="./images/image-product-mobile.jpg"
+          />
+          <source
+            media="(min-width: 576px)"
+            srcset="./images/image-product-desktop.jpg"
+          />
+          <img class="card-img" src="Screenshot.png" alt="Eau De Parfum" />
+        </picture>
+      </div>
+      <div class="details">
+        <p class="label">PERFUME</p>
+        <h1 class="header">Gabrielle Essence Eau De Parfum</h1>
+        <p class="para">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="price">
+          <p class="price-big">$149.99</p>
+          <p class="price-crossed">$169.99</p>
+        </div>
+        <div class="add-to-cart">
+          <button>
+            <span
+              ><img id="cart-svg" src="./images/icon-cart.svg" alt=""
+            /></span>
+            <span>Add to Cart</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/fistty"
+        >Osuntuyi Ayomide Amos</a
+      >.
+    </div>
+  </body>
+</html>
